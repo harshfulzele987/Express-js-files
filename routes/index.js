@@ -14,10 +14,6 @@ router.get('/about', (req, res) => {res.render('about')});
 
 
 
-router.get ('/downlode' , (req, res) => {
-    res.download('./public/noob.jpg');
-
-});
 router.get('/api/products',(req,res) =>{
     res.json([
         {
